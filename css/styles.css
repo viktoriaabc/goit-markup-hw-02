@@ -2,30 +2,53 @@ body {
   font-family:'Roboto', 'Helvetica Neue', 'Verdana', sans-serif;
   color:#434455;
   background-color:#FFFFFF;
- 
-  
   font-size: 16px;
   line-height: 2;
-}
-a {
   text-decoration: none;
-}
-ul, ol {
   list-style-type: none;
+}
+.menu-nav {
+  color: #2E2F42;
 }
 .menu-nav:hover,
 .menu-nav:focus {
-color:#404bbf;
+color: #404bbf;
+}
+.contacts {
+  color: #434455;
 }
 .contacts:hover,
 .contacts:focus {
   color: #404bbf;
 }
-.order {
+.title {
+  background-color: #2E2F42;
+}
+.order-button {
 color: #4D5AE5;
 cursor: pointer;
 }
-.order:hover,
-.order:focus {
+.order-button:hover,
+.order-button:focus {
 color: #404bbf;
+}
+
+.qualities-name {
+  color: #2E2F42;
+}
+h2 {
+  color: #2E2F42;
+}
+.section-team {
+  background-color: #f4F4FD;
+}
+.team-name {
+  color: #2E2F42;
+}
+.portfolio-name {
+  color: #2E2F42;
+}
+.page-footer {
+  background-color: #2E2F42;
+  color: #f4F4FD;
 }
