@@ -12,7 +12,7 @@ body {
 }
 .menu-nav:hover,
 .menu-nav:focus {
-color: #404bbf;
+  color: #404bbf;
 }
 .contacts {
   color: #434455;
@@ -24,13 +24,17 @@ color: #404bbf;
 .title {
   background-color: #2E2F42;
 }
+.page-title {
+  color:#FFFFFF;
+}
 .order-button {
-color: #4D5AE5;
-cursor: pointer;
+  color: #FFFFFF;
+  background-color: #4D5AE5;
+  cursor: pointer;
 }
 .order-button:hover,
 .order-button:focus {
-color: #404bbf;
+  background-color: #404bbf;
 }
 
 .qualities-name {
