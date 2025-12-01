@@ -2,21 +2,30 @@ body {
   font-family:'Roboto', 'Helvetica Neue', 'Verdana', sans-serif;
   color:#434455;
   background-color:#FFFFFF;
-  text-decoration: none;
-  list-style-type: none;
+ 
+  
   font-size: 16px;
   line-height: 2;
+}
+a {
+  text-decoration: none;
+}
+ul, ol {
+  list-style-type: none;
 }
 .menu-nav:hover,
 .menu-nav:focus {
 color:#404bbf;
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:focus {
   color: #404bbf;
 }
 .order {
 color: #4D5AE5;
+cursor: pointer;
 }
-.order:hover {
+.order:hover,
+.order:focus {
 color: #404bbf;
 }
