@@ -31,8 +31,8 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio-logo-style{
-  color: #2e2f42;
+.studio-logo-style {
+  color:#f4f4fd;
 }
 .contacts {
   color: #434455;
@@ -56,13 +56,13 @@ a {
   letter-spacing: 0.02em;
 }
 .order-button {
+  font-family: "Roboto", sans-serif;
   color: #FFFFFF;
   background-color: #4D5AE5;
   cursor: pointer;
-  font-family: "Roboto", sans serif;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.4em;
+  letter-spacing: 0.04em;
 }
 .order-button:hover,
 .order-button:active,
@@ -88,16 +88,26 @@ h2 {
   background-color: #f4F4FD;
 }
 .title-team {
- font-weight: 500;
- font-size: 20px;
- line-height: 1.2;
- letter-spacing: 0.02em;
-}
-.team-list {
- background-color: #FFFFFF;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
 .team-name {
   color: #2E2F42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.team-list {
+  background-color: #FFFFFF;
+}
+.team-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 .title-portfolio {
   font-size: 36px;
