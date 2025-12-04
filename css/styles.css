@@ -31,8 +31,8 @@ a {
   text-transform: uppercase;
   color: #4d5ae5;
 }
-.studio-logo-style {
-  color:#f4f4fd;
+.studio-logo-style-header {
+  color:#2E2F42;
 }
 .contacts {
   color: #434455;
@@ -137,6 +137,9 @@ text-transform: capitalize;
 }
 .page-footer {
   background-color: #2E2F42;
+  color: #f4F4FD;
+}
+.studio-logo-style-footer {
   color: #f4F4FD;
 }
 .footer-text {
